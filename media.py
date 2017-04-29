@@ -1,7 +1,12 @@
-
 import webbrowser
 
 class Movie():
+    """This class is used to initialise Movie objects
+    with related information such as title, storyline,
+    poster image url and trailer youtube url.
+
+    It also has a method to show the trailer of a movie.
+    """
     def __init__(self,
                  movie_title,
                  movie_storyline,

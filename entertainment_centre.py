@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Create six Movie objects
 toy_story = media.Movie("Toy Story",
                         "A boy and his toys that come to life",
                         "https://lumiere-a.akamaihd.net/v1/images/pixarcol_telstra_1000x1440_11_e0ed924d.png",
@@ -35,5 +36,8 @@ transformers = media.Movie("Transformers",
                            "https://cdn.traileraddict.com/content/paramount-pictures/transformers-the-last-knight.jpg",
                            "https://www.youtube.com/watch?v=yCOvcyfRPRk")
 
+# Store the Movie objects in a list
 movies = [toy_story, avatar, zootopia, dark_knight, lord_of_rings, transformers]
+
+# Build the HTML file using the movie list and display the website
 fresh_tomatoes.open_movies_page(movies)
